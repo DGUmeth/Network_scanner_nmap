@@ -29,7 +29,7 @@ sudo dnf install nmap
 
 1. Run the script:
 ```bash
-sudo python3 simple_scanner.py
+sudo python3 Network_scanner.py
 ```
 
 2. Enter the network range when prompted:
@@ -75,7 +75,7 @@ PORT     STATE SERVICE
 → Install nmap using the commands above
 
 **"Permission denied"**  
-→ Run with sudo: `sudo python3 simple_scanner.py`
+→ Run with sudo: `sudo python3 Network_scanner.py`
 
 **Scan takes too long**  
 → Try a smaller network range (e.g., `/28` instead of `/24`)
